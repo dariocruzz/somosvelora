@@ -1,16 +1,17 @@
 /* Somos Velora — landing · mobile-first, sobrio */
 
 :root {
-  --bg: #0a0f0d;
-  --bg-elevated: #111816;
-  --surface: #161f1c;
-  --text: #e6ebe8;
-  --text-muted: #7d8f86;
-  --accent: #2eb88a;
-  --accent-hover: #34c997;
-  --accent-muted: rgba(46, 184, 138, 0.14);
-  --border: rgba(125, 143, 134, 0.2);
-  --border-hover: rgba(46, 184, 138, 0.35);
+  /* Palette aligned to Velora app mark (navy + near-white) */
+  --bg: #0f172a; /* Velora mark background */
+  --bg-elevated: #111c34;
+  --surface: #162242;
+  --text: #f8fafc; /* Velora mark stroke */
+  --text-muted: #cbd5e1; /* slate-300 */
+  --accent: #93c5fd; /* soft blue (links/CTA) */
+  --accent-hover: #bfdbfe;
+  --accent-muted: rgba(147, 197, 253, 0.16);
+  --border: rgba(203, 213, 225, 0.18);
+  --border-hover: rgba(147, 197, 253, 0.38);
   --font-sans: "DM Sans", system-ui, sans-serif;
   --font-display: "Fraunces", Georgia, serif;
   --radius: 12px;
@@ -49,8 +50,8 @@ body::before {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(46, 184, 138, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(46, 184, 138, 0.025) 1px, transparent 1px);
+    linear-gradient(rgba(147, 197, 253, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(147, 197, 253, 0.03) 1px, transparent 1px);
   background-size: 64px 64px;
   mask-image: radial-gradient(ellipse 85% 55% at 50% -10%, black 15%, transparent 72%);
   pointer-events: none;
